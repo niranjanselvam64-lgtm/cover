@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    color:black;
+}
+.book {
+    width: 618px;
+    height: 889px;
+    margin: 20px auto;
+    background-image: url("image 1.png");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+}
+.header{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.about {
+    font-size: 18px;
+    font-weight: light;
+    color: light black;
+    margin-top: 10px;
+    
+}
+.quote {
+    text-align: center;
+    font-family: italic;
+    background-color: green;
+    border-left: 5px solid yellow;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.photo{
+    height: 120px;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+}
+
+.authorcontent{
+    display: flex;
+    background-color: white;
+}
+
+.author img{
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.ending{
+    background-color: pink;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.ending h4{
+    color: black;
+}
+
+.under{
+    margin-left: 20px;
+}
+
+.price{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
